@@ -7,6 +7,8 @@ import Habilidades from "components/Habilidades";
 import Contato from "components/Contato";
 import Footer from "components/Footer";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
   <div className="min-h-dvh bg-gradient-to-r from-indigo-900 to-gray-900 text-foreground overflow-x-hidden">
